@@ -31,9 +31,32 @@ When:  The future looks bright for Blob Freezer. here is a quick list of planned
 
 Usage:
 
+Backend--------------
+
 in the public folder, add a folder with the images you would like in a request.
 Add the folder's name to the 'registry' array in config.php
 
 The request format looks like the following <your domain>/<path/to/blob-freezer>/folder/<foldername>
 
 example: nickfreese.com/blob-freezer-example/folder/images
+
+Frontend--------------
+
+Please refer to the following markup:
+
+```
+<img data-freezer-name="photo-1.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+<img data-freezer-name="photo-2.jpg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+<script src='https://<your website>.com/<blob-freezer>/scripts/blob-freezer.js'></script>
+<script>
+freezer.run('https://<your website>.com/<blob-freezer>/folder/images');
+</script>
+
+```
+
+Things to note: 
+- The src is set to a 1x1 transparent data image to prevent broken image icons
+- data-freezer-name should be set to the name of the image including the extension.
+
+
+Thats it!  Happy Coding!
