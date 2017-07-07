@@ -23,9 +23,9 @@ When:  The future looks bright for Blob Freezer. here is a quick list of planned
     - auto size and format by device width and type.
  
 - Support for sub folders
-- resource includes.  including css and content.  options for minification.
-- custom routing configuration for serving web app content.
-
+- Resource includes.  including css and content.  options for minification.
+- Custom routing configuration for serving web app content.
+- JS packaged as module, will be usable as node module as well.
 
 ------------------------------------------------------------------------------------------------------------------
 
