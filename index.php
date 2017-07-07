@@ -1,7 +1,7 @@
 <?php
 /*
 * ------------------------------------------
-* - Ice Blober, Copyright Nick Freese 2017 -
+* - Ice Blober, Nick Freese 2017 -
 * ------------------------------------------
 */
 header('Content-Type: application/json');
