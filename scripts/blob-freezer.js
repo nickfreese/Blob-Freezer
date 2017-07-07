@@ -1,4 +1,4 @@
-//Freezer a base64 rendering class for loading bundles of bas64 image data.
+//blob-freezer.js a base64 rendering class for loading bundles of bas64 image data.
 
 var freezer = {
     
