@@ -1,4 +1,4 @@
-BLOB FREEZER - COPYRIGHT Nick Freese 2017 -
+BLOB FREEZER -  Nick Freese 2017 -
 ------------------------------------------------------------------------------------------------------------------
 
 what:  Blob Freezer is a nifty piece of web software which aids image performance optimization.  It combines dynamic image optimization, image blobs, sprite sheets and aggressive caching to deliver faster page loads. 
